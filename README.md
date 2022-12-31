@@ -9,6 +9,8 @@ For study model stability, providing input in the scope of the game environment 
 
 🐑💬 We cannot perform measurement multiple actions inputs system we using simulation. Adjust it ‼️
 
+🐑💬 Noises rates ratios.
+
 ```
 def random_action(  ): 
 	
@@ -55,8 +57,32 @@ def random_action(  ):
 
 ## Result ##
 
+#### Add noises as random signals and see how much it can perfromace for the same tasks - 100 rounds ####
+
+In short-range performance with different input-to-output contrast different ```distance-velocity``` , that is because the Flappy bird player has sufficient forces and action to create acceleration and drawbacks to keep it moving forward.
+
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_14.png "image Title")
+
+#### Add noises as random signals and see how much it can perfromace for the same tasks - 900 rounds ####
+
+In short-range performance with different input-to-output contrast different ```distance-velocity``` , that is because the Flappy bird player has sufficient forces and action to create acceleration and drawbacks to keep it moving forward.
+
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_22.png "image Title")
+
+#### Add noises as random signals and see how much it can perfromace for the same tasks - 2,500 rounds ####
+
+In short-range performance with different input-to-output contrast different ```distance-velocity``` , we found patterns by visual in graph.
+
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_25.png "image Title")
+
+#### Add noises as random signals and see how much it can perfromace for the same tasks - 80 rounds with highest noises ####
+
+The highest noises we can add are not more than 1 / 3 of inputs or the model performance.
+
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_5.png "image Title")
+
+#### GIF animations ####
+
+The game plays animations.
+
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/FlappyBirds.gif "image Title")
