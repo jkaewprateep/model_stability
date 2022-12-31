@@ -3,10 +3,7 @@
 For study model stability, providing input in the scope of the game environment both similar and different than the training input can provide accurate results that can be trust.
 
 1. We input noises with model prediction performance the same as radio bandwidths, ```temp = tf.random.normal([2], 0.001, 0.5, tf.float32)``` the result can be trusted and accuracy rates are proved by both scoring and game player performance.
-2. 
-3. 
-```temp = tf.ones([2], tf.float32)```
-```temp = tf.math.multiply(temp, tf.constant([ coeff_01, coeff_02 ], shape=(2, 1), dtype=tf.float32))```
+2. Input variables we use for AI model ```temp = tf.math.multiply(temp, tf.constant([ coeff_01, coeff_02 ], shape=(2, 1), dtype=tf.float32))``` , the random function is to prove the equation and target possibility.
 
 ```
 def random_action(  ): 
@@ -32,7 +29,7 @@ def random_action(  ):
 	coeff_02 = 512 - player_y_array
 	
 	temp = tf.random.normal([2], 0.001, 0.5, tf.float32)
-	temp = tf.ones([2], tf.float32)
+	# temp = tf.ones([2], tf.float32)
 	temp = tf.math.multiply(temp, tf.constant([ coeff_01, coeff_02 ], shape=(2, 1), dtype=tf.float32))
 	# temp = tf.nn.softmax(temp)
 	# 
