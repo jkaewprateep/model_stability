@@ -9,7 +9,7 @@ For study model stability, providing input in the scope of the game environment 
 
 🐑💬 We cannot perform measurement multiple actions inputs system we using simulation. Adjust it ‼️
 
-🐑💬 Noises rates ratios.
+🐑💬 Noises rates ratios, if it gonna broken let me know how long ⁉️
 
 ```
 def random_action(  ): 
