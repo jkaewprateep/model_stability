@@ -6,6 +6,7 @@ For study model stability, providing input in the scope of the game environment 
 2. Input variables we use for AI model ```temp = tf.math.multiply(temp, tf.constant([ coeff_01, coeff_02 ], shape=(2, 1), dtype=tf.float32))``` , the random function is to prove the equation and target possibility.
 
 🧸💬 How much noise ratios that our AI and equation can resists⁉️
+
 🐑💬 We cannot perform measurement multiple actions inputs system we using simulation. Adjust it ‼️
 
 ```
