@@ -59,3 +59,4 @@ def random_action(  ):
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_22.png "image Title")
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_25.png "image Title")
 ![alt text](https://github.com/jkaewprateep/model_stability/blob/main/Figure_5.png "image Title")
+![alt text](https://github.com/jkaewprateep/model_stability/blob/main/FlappyBirds.gif "image Title")
