@@ -5,6 +5,9 @@ For study model stability, providing input in the scope of the game environment 
 1. We input noises with model prediction performance the same as radio bandwidths, ```temp = tf.random.normal([2], 0.001, 0.5, tf.float32)``` the result can be trusted and accuracy rates are proved by both scoring and game player performance.
 2. Input variables we use for AI model ```temp = tf.math.multiply(temp, tf.constant([ coeff_01, coeff_02 ], shape=(2, 1), dtype=tf.float32))``` , the random function is to prove the equation and target possibility.
 
+🧸💬 How much noise ratios that our AI and equation can resists⁉️
+🐑💬 We cannot perform measurement multiple actions inputs system we using simulation. Adjust it ‼️
+
 ```
 def random_action(  ): 
 	
